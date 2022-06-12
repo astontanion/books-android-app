@@ -65,6 +65,9 @@ dependencies {
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
     androidTestImplementation "androidx.navigation:navigation-testing:$nav_version"
 
+    // swipe refresh
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+
     // paging library
     implementation "androidx.paging:paging-runtime-ktx:$paging_version"
     testImplementation "androidx.paging:paging-common-ktx:$paging_version"
