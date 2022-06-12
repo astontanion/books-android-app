@@ -4,5 +4,5 @@ import com.example.books.model.Volume
 import com.example.books.model.VolumeFilter
 
 interface VolumeRepository {
-    suspend fun retrieveBook(filter: VolumeFilter): List<Volume>
+    suspend fun retrieveBook(filter: VolumeFilter, startIndex: Int, maxResult: Int): List<Volume>
 }
