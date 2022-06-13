@@ -6,11 +6,11 @@ import com.google.gson.annotations.SerializedName
 data class ImageLinksDto(
     @Expose
     @SerializedName("smallThumbnail")
-    val smallThumbnail: String,
+    val smallThumbnail: String?,
 
     @Expose
     @SerializedName("thumbnail")
-    val thumbnail: String
+    val thumbnail: String?
 ) {
     fun toImageLinks(): ImageLinks {
         return ImageLinks(

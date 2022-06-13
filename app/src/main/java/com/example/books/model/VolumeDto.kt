@@ -14,13 +14,13 @@ data class VolumeDto (
 
     @Expose
     @SerializedName("volumeInfo")
-    val volumeInfoDto: VolumeInfoDto
+    val volumeInfoDto: VolumeInfoDto?
 ) {
     fun toVolume(): Volume {
         return Volume(
             kind = kind,
             id = id,
-            volumeInfo  = volumeInfoDto.toVolumeInfo()
+            volumeInfo  = volumeInfoDto?.toVolumeInfo()
         )
     }
 }
