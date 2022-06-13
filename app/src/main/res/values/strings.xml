@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Books</string>
+    <string name="search_book_hint">Search book…</string>
+    <string name="content_description_book_image">Book image</string>
+    <string name="filter_order_ascending">Ascending</string>
+    <string name="filter_order_descending">Descending</string>
+    <string name="order_by">Order by</string>
+    <string name="sort_in">Sort in</string>
+    <string name="filter_category_author">Author</string>
+    <string name="filter_category_alphabetically">Alphabetically</string>
 </resources>
