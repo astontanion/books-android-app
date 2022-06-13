@@ -10,7 +10,7 @@ interface VolumeEndPoint {
     suspend fun retrieveVolumes(
         @Query("q") query: String,
         @Query("projection") projection: String = "lite",
-        @Query("maxResult") maxResult: Int = 40,
+        @Query("maxResults") maxResult: Int = 40,
         @Query("startIndex") startIndex: Int = 0
     ): VolumeResponseDto
 }
